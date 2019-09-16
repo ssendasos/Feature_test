@@ -1,0 +1,121 @@
+.heart {
+    margin-left: 276px;
+    margin-top: 50px;
+}
+
+.about__person {
+    margin: 0;
+    margin-top: -14px;
+}
+
+.about__avatar {
+    margin-left: 84px;
+}
+
+.about__name {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 23px;
+    font-weight: 500;
+}
+
+
+.about__working {
+    text-align: center;
+    line-height: 21px;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.about__link {
+    display: block;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #5286EC;
+    text-decoration: none;
+    margin-top: 7px;
+    line-height: 22px;
+}
+
+.about__title {
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+
+.about__text {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.about__more {
+    color: #5286EC;
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+    padding: 0;
+    font-size: 16px;
+    line-height: 23px;
+
+    cursor: pointer;
+}
+
+.about__more--hidden--1 {
+    display: none;
+}
+
+.about__more--hidden--2 {
+    display: none;
+}
+
+
+.arrow {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+
+    background-color: transparent;
+    border: 1px solid #c7c7c7;
+
+    transform: rotate(45deg);
+    border-left: none;
+    border-top: none;
+    margin-left: 7px;
+    margin-bottom: 3px;
+}
+
+
+@media (min-width: @desktop-width) {
+    .about {
+        margin-left: 390px;
+        width: 1139px;
+        display: flex;
+    }
+
+    .about__profile {
+        order: 2;
+        margin-right: 100px;
+    }
+
+    .about__text {
+        margin-left: 0;
+        padding-right: 226px;
+    }
+
+    .about__title {
+        margin-left: 0;
+        margin-top: 37px;
+    }
+    .about__more {
+        margin-left: 0;
+    }
+}

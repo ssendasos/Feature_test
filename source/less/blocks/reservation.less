@@ -1,0 +1,165 @@
+.reservation__wrapper {
+    background-image: url(../../img/helimain-mobile.jpg);
+    background-repeat: no-repeat;
+}
+
+.reservation__title {
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding-top: 142px;
+    margin-left: 15px;
+    padding-right: 65px;
+    margin-bottom: 36px;
+    
+}
+
+.orange-word {
+    color: #FC9B09;
+}
+
+.reservation__cost {
+    width: 200px;
+    display: flex; 
+    background-color: #FC9B09;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.reservation__cost::after {
+    content: "";
+
+    position: absolute;
+    
+    width: 20px;
+    height: 20px;
+    top: 68px;
+    left: 110px;
+    border-radius: 5px;
+
+    
+    
+
+    transform: rotate(45deg);
+    box-shadow: 5px 4.5px 4px rgba(0, 0, 0, 0.1);
+
+    background-color: #FC9B09;
+}
+
+.cost__text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 17px;
+    padding-top: 9px;
+    
+}
+
+.cost__value {
+    font-size: 30px;
+    line-height: 45px;
+    margin-left: 18px;
+    margin-bottom: 8px;
+}
+
+.cost__percent {
+    width: 46px;
+    height: 46px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+
+.percent {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.reservation__button {
+    font-size: 16px;
+    line-height: 20px;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    font-weight: 900;
+    color: #ffffff;
+    border-radius: 7px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 33px;
+    padding-right: 33px;
+
+    margin-left: 15px;
+    margin-bottom: 154px;
+
+    cursor: pointer;
+
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 70px rgba(255, 255, 255, 0.7);
+    
+}
+
+@media (min-width: @desktop-width) {
+    .reservation__wrapper {
+        background-image: url(../../img/helimain-desk.jpg);
+    }
+
+    .reservation__title {
+        font-size: 40px;
+        line-height: 49px;
+        padding-top: 286px;
+        margin-left: 390px;
+        margin-right: 600px;
+    }
+
+    .reservation__cost {
+        margin-left: 390px;
+        width: 224px;
+    }
+
+    .reservation__cost::after {
+        top: 76px;
+    }
+
+    .cost__text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .cost__value {
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 53px;
+    }
+
+    .cost__percent {
+        width: 52px;
+        height: 52px;
+    }
+
+    .percent {
+        font-size: 35px;
+        line-height: 53px;
+        margin-top: -1px;
+    }
+
+    .reservation__button {
+        margin-left: 390px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 900;
+        padding-left: 37px;
+        padding-right: 37px;
+        padding-top: 24px;
+        padding-bottom: 23px;
+    }
+}
+

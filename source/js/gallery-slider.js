@@ -246,6 +246,4 @@ if (window.screen.width < 1139) {
 
     }, false)
 
-} else {
-    obj.style.transform = "translateX(" + 0 + "px";
-}
+} 

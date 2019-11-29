@@ -1,7 +1,7 @@
 "use strict";
-var mobileImg = document.querySelector('.mobile-img');
+var mobileImg = document.querySelector('.mobile-button');
 var play = document.querySelector('.description-play');
-var deskImg = document.querySelector('.desktop-img');
+var deskImg = document.querySelector('.desktop-button');
 var playDesk = document.querySelector('.desktop-play');
 
 mobileImg.addEventListener('click', function(evt) {

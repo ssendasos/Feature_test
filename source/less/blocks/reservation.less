@@ -1,5 +1,5 @@
 .reservation__wrapper {
-    background-image: url(../../img/helimain-mobile.jpg);
+    background-image: url(../../img/helimain-mobile.webp);
     background-repeat: no-repeat;
 }
 
@@ -104,12 +104,24 @@
     cursor: pointer;
 
     box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 70px rgba(255, 255, 255, 0.7);
+
+    transition: 
+        border-color 0.5s ease,
+        color 0.5s ease,
+        box-shadow 0.5s ease;
+        
+
+    &:hover {
+        border-color: #FC9B09;
+        color: #FC9B09;
+        box-shadow: 0px 4px 4px rgba(252, 155, 9, 0.25), 0px 4px 70px rgba(255, 255, 255, 0.7);
+    }
     
 }
 
 @media (min-width: @desktop-width) {
     .reservation__wrapper {
-        background-image: url(../../img/helimain-desk.jpg);
+        background-image: url(../../img/helimain-desk.webp);
     }
 
     .reservation__title {

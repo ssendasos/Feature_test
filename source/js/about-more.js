@@ -1,9 +1,9 @@
 "use strict"
 
-var firstMore = document.getElementById('more-button-1');
-var secondMore = document.getElementById('more-button-2');
-var firstHidden = document.querySelector('.about__block');
-var secondHidden = document.querySelector('.about__block--2');
+const firstMore = document.getElementById('more-button-1');
+const secondMore = document.getElementById('more-button-2');
+const firstHidden = document.querySelector('.about__block');
+const secondHidden = document.querySelector('.about__block--2');
 
 firstMore.addEventListener('click', function(evt) {
     firstHidden.classList.toggle('about__more--hidden--1')

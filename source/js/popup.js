@@ -1,9 +1,9 @@
 "use strict";
 
-var popup = document.querySelector('.modal');
-var popupOpen = document.querySelector('.reservation__button');
-var background = document.querySelector('.custom');
-var popupclose = document.querySelector('.button__close');
+const popup = document.querySelector('.modal');
+const popupOpen = document.querySelector('.reservation__button');
+const background = document.querySelector('.custom');
+const popupclose = document.querySelector('.button__close');
 
 
 popupOpen.addEventListener('click', function(evt) {

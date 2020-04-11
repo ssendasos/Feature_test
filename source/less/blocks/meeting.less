@@ -14,8 +14,9 @@
 .meeting__list {
     list-style: none;
     padding-left: 0;
-    
+    width: 1000px;
     transition: transform 1s ease;
+    margin-left: 36px;
 }
 
 .number-block {
@@ -54,7 +55,12 @@
 
 .meeting__item {
     float: left;
-    
+    width: 212px;
+    margin-right: 10px;
+}
+
+.meeting__item:last-child {
+  margin-right: 0;
 }
 
 
@@ -186,10 +192,12 @@
         float: none;
         margin: 0;
         display: flex;
+        width: auto;
     }
 
     .meeting__list {
         width: auto;
+        margin-left: 30px;
     }
 
     .slider__wrapper {
@@ -214,6 +222,11 @@
         margin-left: 30px;
         margin-right: 18px;
         margin-top: 20px;
+        margin-left: 0;
+    }
+    
+    .meeting__item:first-child {
+      margin-top: 31px;
     }
 
     .meeting__text,
@@ -227,7 +240,7 @@
 
 
     .meeting__person {
-        margin-top: 0;
+        margin-top: 21px;
         margin-bottom: 44px;
     }
 
